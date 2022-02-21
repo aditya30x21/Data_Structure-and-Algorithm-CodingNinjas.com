@@ -158,7 +158,7 @@ class Trie {
             	return search(word.substr(0, word.size() - 1)) or search(word.substr(1)); 
                 // If we encounter an even length word we check that after the removing the first or the last character
                 // Whether the remaining string is present in the trie or not.
-                // In case of abcc ccbd we got wrong answer so to remove that in serach function we return the 
+                // In case of abcc ccbd we got wrong answer so to remove that in search function we return the 
                 // isTerminal to signify if we reached end of word
                 
             }
